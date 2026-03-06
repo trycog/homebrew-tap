@@ -7,22 +7,22 @@ class Cog < Formula
   on_macos do
     on_arm do
       url "https://github.com/trycog/cog-cli/releases/download/v0.6.1/cog-darwin-arm64.tar.gz"
-      sha256 "32c179350b49f60d2ce4208eb2b893e803fab11d049c306c5721e118205ccb30"
+      sha256 "99061dd944c83a66fd269359d0a7ba36dc0caf5f6d31202ac3b6e8b73303c660"
     end
     on_intel do
       url "https://github.com/trycog/cog-cli/releases/download/v0.6.1/cog-darwin-x86_64.tar.gz"
-      sha256 "55d6f396038e599a85fa2f2ced15ddd946def3eb012dee821b0f972b3cb8c7b8"
+      sha256 "55898857893def005be1253ef454ec5cde722c63d1bda51e3783bda40ef8a61c"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/trycog/cog-cli/releases/download/v0.6.1/cog-linux-arm64.tar.gz"
-      sha256 "5f33763d7bb05ce0693b297dc97af620f9b2d18fe325ddba52c21365a27aa1fd"
+      sha256 "5812ae46228beb6a914849477509818b952f169c1807776e6066360517ce686b"
     end
     on_intel do
       url "https://github.com/trycog/cog-cli/releases/download/v0.6.1/cog-linux-x86_64.tar.gz"
-      sha256 "ead5ef2f2eea2a1468bca5740b1baec5f7878c19ee5de07d79d56bb90b4f3536"
+      sha256 "44740993ece9ac56f6c2715151a98802154e70823b0ee0292ec9a031682b6374"
     end
   end
 
