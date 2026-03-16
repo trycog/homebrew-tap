@@ -1,24 +1,24 @@
 class Cog < Formula
   desc "Memory, code intelligence, and debugging for AI agents"
   homepage "https://github.com/trycog/cog-cli"
-  version "0.18.1"
+  version "0.19.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/trycog/cog-cli/releases/download/v0.18.1/cog-darwin-arm64.tar.gz"
-      sha256 "800659b494e524c151348866516a481b356ddd4193ed99495b39934f24618d04"
+      url "https://github.com/trycog/cog-cli/releases/download/v0.19.0/cog-darwin-arm64.tar.gz"
+      sha256 "fe73108f00799ef16da219404cb2523a7fdf71a293de3308555b59e443a8eaf5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/trycog/cog-cli/releases/download/v0.18.1/cog-linux-arm64.tar.gz"
-      sha256 "b48fa60408d4c961a57344875d7b56ddda36b58019b2295907e5693f8992fddd"
+      url "https://github.com/trycog/cog-cli/releases/download/v0.19.0/cog-linux-arm64.tar.gz"
+      sha256 "557a8c7360d09154adfc12acbab802fb8112afa451f4c2c818ad5f63e8b50801"
     end
     on_intel do
-      url "https://github.com/trycog/cog-cli/releases/download/v0.18.1/cog-linux-x86_64.tar.gz"
-      sha256 "b85ed0301132b8e87e6c6237752596b16ab554ef7adb15346496d8898de0fed3"
+      url "https://github.com/trycog/cog-cli/releases/download/v0.19.0/cog-linux-x86_64.tar.gz"
+      sha256 "f11fb62be064d5939e30955619579c07b4f3c237ba609db855c1a6d8c4904f14"
     end
   end
 
